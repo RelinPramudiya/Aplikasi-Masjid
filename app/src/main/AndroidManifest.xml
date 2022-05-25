@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplikasiMesjid">
         <activity
-            android:name=".DetailActivity"
+            android:name="com.if4b.aplikasi_mesjid.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.if4b.aplikasi_mesjid.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

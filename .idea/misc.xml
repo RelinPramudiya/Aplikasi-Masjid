@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Masjid/app/src/main/res/layout/activity_detail.xml" value="0.209375" />
+        <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Masjid/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Masjid/app/src/main/res/layout/card_item_masjid.xml" value="0.209375" />
+        <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Masjid/app/src/main/res/layout/grid_item_masjid.xml" value="0.209375" />
+        <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Masjid/app/src/main/res/menu/menu_top_right.xml" value="0.209375" />
         <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Mesjid/app/src/main/res/layout/activity_detail.xml" value="0.209375" />
         <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Mesjid/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
         <entry key="..\:/GitHub IF6A/Pahlawanku/Aplikasi-Mesjid/app/src/main/res/layout/grid_item_mesjid.xml" value="0.22" />
