@@ -19,19 +19,19 @@
             android:src="@mipmap/ic_launcher"/>
 
         <TextView
-            android:id="@+id/tv_nama_mesjid"
+            android:id="@+id/tv_nama_masjid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama Mesjid"
+            android:text="Nama Masjid"
             android:padding="6dp"
             style="@style/TextAppearance.AppCompat.Large"
             />
 
         <TextView
-            android:id="@+id/tv_tentang_mesjid"
+            android:id="@+id/tv_tentang_masjid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tentang Mesjid"
+            android:text="Tentang Masjid"
             android:padding="6dp"
             style="@style/TextAppearance.AppCompat.Medium"
             android:justificationMode="inter_word"

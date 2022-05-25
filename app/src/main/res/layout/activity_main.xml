@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_Mesjid"
+        android:id="@+id/rv_Masjid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/card_item_mesjid"
+        tools:listitem="@layout/card_item_masjid"
         />
 
 </RelativeLayout>

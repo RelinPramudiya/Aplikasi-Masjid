@@ -11,31 +11,31 @@
         android:padding="6dp">
 
         <ImageView
-            android:id="@+id/iv_mesjid"
+            android:id="@+id/iv_masjid"
             android:layout_width="75dp"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
             android:src="@mipmap/ic_launcher"/>
 
         <TextView
-            android:id="@+id/tv_nama_mesjid"
+            android:id="@+id/tv_nama_masjid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/iv_mesjid"
+            android:layout_toRightOf="@id/iv_masjid"
             android:layout_marginLeft="6dp"
-            android:text="Nama Mesjid"
+            android:text="Nama Masjid"
             android:textSize="20sp"
             android:textStyle="bold"
             />
 
         <TextView
-            android:id="@+id/tv_tentang_mesjid"
+            android:id="@+id/tv_tentang_masjid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/iv_mesjid"
+            android:layout_toRightOf="@id/iv_masjid"
             android:layout_marginLeft="6dp"
-            android:layout_below="@id/tv_nama_mesjid"
-            android:text="Tentang Mesjid"
+            android:layout_below="@id/tv_nama_masjid"
+            android:text="Tentang Masjid"
             android:justificationMode="inter_word"
             android:maxLines="4"
             android:ellipsize="end"
