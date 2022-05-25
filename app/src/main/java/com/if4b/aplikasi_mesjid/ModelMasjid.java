@@ -1,6 +1,6 @@
 package com.if4b.aplikasi_mesjid;
 
-public class ModelMesjid {
+public class ModelMasjid {
     private String nama;
     private String tentang;
     private String foto;
