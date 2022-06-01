@@ -3,6 +3,7 @@ package com.if4b.aplikasi_mesjid;
 import java.util.ArrayList;
 
 public class DataMasjid {
+
     public static String[][] data = new String[][]{
             {"Masjid Agung Sultan Mahmud Badaruddin Jayo Wikramo", "Berdiri sejak pertengahan abad ke-18, Masjid Agung Palembang menjadi satu dari sedikit masjid tertua di Sumatera Selatan. Atapnya berbentuk limas tapi menyerupai kelenteng dengan ornamen warna emas. Menara di dekat masjid berbentuk kerucut seperti tumpeng atau gunungan. Dinding beton yang tebal, pintu, dan pilar-pilar besar penyangga bagian depan masjid serupa bangunan peninggalan kolonial yang berarsitektur Eropa. Masuk ke dalam, Anda akan melihat ruangan shalat serupa masjid-masjid kuno di Jawa. Ada pilar-pilar utama dan penyangga menopang atap. Pilar-pilar ini terbuat dari kayu berwarna hijau dengan ukiran motif di bagian bawahnya. Di tengah-tengah, lampu gantung menyinari seisi ruangan. Di dekat mihrab, terdapat mimbar yang dihiasi ukiran khas Palembang. Masjid Agung Sultan Mahmud Badaruddin I (SMB I) Jayo Wikramo atau dikenal dengan Masjid Agung Palembang memang menawan. Selain menampilkan perpaduan arsitektur Tiongkok, Eropa, dan Nusantara, masjid ini merupakan saksi bisu sejarah Kota Palembang.", "https://indonesiakaya.com/wp-content/uploads/2020/10/Masjid_agung_palembang_1200.jpg"},
             {"Masjid Muhammad Cheng Hoo", "Dibangun komunitas Tionghoa-Muslim dengan memadukan tiga kebudayaan yang berbeda. Dari kejauhan, masjid di Palembang ini terlihat begitu mencolok. Bangunan utamanya didominasi warna pink dengan pilar-pilar berwarna merah. Atapnya terdapat kubah berwarna hijau dengan bulan sabit dan bintang layaknya masjid-masjid di Timur Tengah. Sementara di keempat sudut bangunan terdapat atap berbentuk limas, salah bentuk rumah adat di Palembang, berwarna hijau. Masjid dilengkapi dua menara serupa pagoda berwana merah, yang masing-masing diberi nama “Habluminallah” dan “Hambluminannas” –”hubungan manusia dengan Allah” dan “hubungan dengan sesama manusia”. Kedua menara itu punya lima tingkat, yang melambangkan shalat lima waktu dalam sehari. Tinggi menara mencapai 17 meter; simbol dari jumlah rakaat yang harus dikerjakan setiap Muslim dalam sehari. Di lantai dasar masing-masing menara terdapat tempat wudhu. Sementara bagian luar menara dibubuhi ornamen khas Palembang berupa tanduk kambing. Di dalam masjid, pengunjung akan mendapati warna dominan merah yang identik dengan budaya Tionghoa. Desain daun pintu utama, pancang-pancang, dan ornamen pagar pembatas di bagian atas kian mempercantik tampilan interior masjid yang kental nuansa Tionghoa. Di gerbang atau gapura masjid yang bergaya Tiongkok, dengan pilar merah dan atap limas berwarna kuning emas, terdapat sebuah papan nama bertuliskan “Masjid Muhammad Cheng Hoo”, lengkap dengan aksara Mandarin.", "https://indonesiakaya.com/wp-content/uploads/2020/10/Masjid_Cheng_Ho_12001.jpg"},
@@ -16,18 +17,18 @@ public class DataMasjid {
             {"Masjid Al-Ghaniy", "Masjid Al-Ghaniy yang dibangun pada tahun 1975. Masjid Al-Ghaniy merupakan kategori masjid Umum. Masjid Al-Ghaniy memiliki luas tanah 169m2 dengan status tanah Wakaf. Masjid Al-Ghaniy memiliki jumlah jamaah 200-250 orang.", "https://hallo.palembang.go.id/petalokasi/login/assets/file/gambar/Masjid_Al-Ghaniy.jpg"},
     };
 
-    public static ArrayList<ModelMasjid> ambilDataPahlawan() {
-        ArrayList<ModelMasjid> dataPahlawan = new ArrayList<>();
+    public static ArrayList<ModelMasjid> ambilDataMasjid() {
+        ArrayList<ModelMasjid> dataMasjid = new ArrayList<>();
         for (String[] varData : data) {
             ModelMasjid model = new ModelMasjid();
             model.setNama(varData[0]);
             model.setTentang(varData[1]);
             model.setFoto(varData[2]);
 
-            dataPahlawan.add(model);
+            dataMasjid.add(model);
         }
 
-        return dataPahlawan;
+        return dataMasjid;
     }
 
 }
