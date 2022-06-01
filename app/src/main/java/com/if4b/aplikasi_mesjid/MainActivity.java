@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         rvMasjid.setHasFixedSize(true);
 
         data.addAll(DataMasjid.ambilDataMasjid());
+        tampilDataCard();
     }
 
     private void tampilDataCard(){
