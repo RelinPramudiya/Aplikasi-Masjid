@@ -22,6 +22,16 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder
         this.dataMasjid = dataMasjid;
     }
 
+    public interface OnItemClickCallBack {
+        void onItemClicked(ModelMasjid data);
+    }
+
+    private AdapterGrid.OnItemClickCallBack callBack;
+
+    public void setOnItemClickCallBack(AdapterGrid.OnItemClickCallBack callBack) {
+        this.callBack = callBack;
+    }
+
     @NonNull
     @Override
     public CardViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -40,6 +50,13 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder
                 .with(holder.itemView.getContext())
                 .load(masjid.getFoto())
                 .into(holder.ivMasjid);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callBack.onItemClicked(dataMasjid.get(holder.getAdapterPosition()));
+            }
+        });
 
     }
 
