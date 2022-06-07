@@ -37,6 +37,30 @@
             android:justificationMode="inter_word"
             />
 
+<!--        <EditText-->
+<!--            android:id="@+id/et_telepon"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+        <Button
+            android:id="@+id/btn_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telepon"
+            android:layout_marginTop="31dp"
+            />
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_lokasi"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+        <Button
+            android:id="@+id/btn_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buka Lokasi"
+            android:layout_marginTop="32dp"/>
+
+
 
     </LinearLayout>
 
