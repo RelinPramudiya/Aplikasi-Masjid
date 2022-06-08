@@ -12,30 +12,29 @@ import com.bumptech.glide.Glide;
 public class DetailActivity extends AppCompatActivity {
     private TextView tvNama,tvTentang;
     private ImageView ivFoto;
-    private String yNama, yTentang, yFoto;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        initView();
+        tvNama = findViewById(R.id.tv_nama_masjid);
+        tvTentang = findViewById(R.id.tv_tentang_masjid);
+        ivFoto = findViewById(R.id.iv_foto);
 
         Intent terima = getIntent();
-        yNama = terima.getStringExtra("xNama");
-        yTentang = terima.getStringExtra("xTentang");
-        yFoto = terima.getStringExtra("xFoto");
+        String yNama = terima.getStringExtra("xNama");
+        String yTentang = terima.getStringExtra("xTentang");
+        String yFoto = terima.getStringExtra("xFoto");
+
+        getSupportActionBar().setTitle(yNama);
 
         tvNama.setText(yNama);
         tvTentang.setText(yTentang);
-
         Glide.with(DetailActivity.this)
                 .load(yFoto)
                 .into(ivFoto);
     }
-    private void initView(){
-        tvNama = findViewById(R.id.tv_nama_masjid);
-        tvTentang = findViewById(R.id.tv_tentang_masjid);
-        ivFoto = findViewById(R.id.iv_foto);
-    }
+
 }
