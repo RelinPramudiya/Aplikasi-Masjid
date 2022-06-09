@@ -12,7 +12,7 @@
 
         <ImageView
             android:id="@+id/iv_masjid"
-            android:layout_width="75dp"
+            android:layout_width="80dp"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
             android:src="@mipmap/ic_launcher"/>

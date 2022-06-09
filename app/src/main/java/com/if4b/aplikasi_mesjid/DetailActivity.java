@@ -19,9 +19,9 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        ivFoto = findViewById(R.id.iv_foto);
         tvNama = findViewById(R.id.tv_nama_masjid);
         tvTentang = findViewById(R.id.tv_tentang_masjid);
-        ivFoto = findViewById(R.id.iv_foto);
 
         Intent terima = getIntent();
         String yNama = terima.getStringExtra("xNama");
